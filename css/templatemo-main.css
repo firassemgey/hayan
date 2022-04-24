@@ -297,6 +297,16 @@ nav a:hover::before {
 .slides .slide:nth-child(1) {
   background-image: url(../img/first_bg.jpg);
 }
+@media (max-width: 749px) {
+	.slides .slide:nth-child(1) {
+		background-image: url(../img/first_bg_mob.jpg);
+		background-size: cover;
+	}
+
+
+}
+	
+}
 .slides .slide:nth-child(2) {
   background-image: url(../img/second_bg.jpg);
 }
